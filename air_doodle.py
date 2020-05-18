@@ -1,9 +1,6 @@
 import numpy as np
 import cv2
-import time
-import argparse
 from collections import deque
-
 
 cap=cv2.VideoCapture(0)
 cv2.CAP_PROP_FPS = 60
